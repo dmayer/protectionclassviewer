@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65FAA2AE18838859009AB812 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FAA2AD18838859009AB812 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65FAA2A118838859009AB812 /* protectionclassviewer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = protectionclassviewer; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FAA2A618838859009AB812 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		65FAA2A718838859009AB812 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		65FAA2A918838859009AB812 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		65FAA2AC18838859009AB812 /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/usr/bin/0xdeadfa11; sourceTree = "<group>"; };
+		65FAA2AD18838859009AB812 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65FAA29E18838859009AB812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65FAA29818838859009AB812 = {
+			isa = PBXGroup;
+			children = (
+				65FAA2A318838859009AB812 /* protectionclassviewer */,
+				65FAA2A218838859009AB812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65FAA2A218838859009AB812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65FAA2A118838859009AB812 /* protectionclassviewer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65FAA2A318838859009AB812 /* protectionclassviewer */ = {
+			isa = PBXGroup;
+			children = (
+				65FAA2AD18838859009AB812 /* main.cpp */,
+				65FAA2A418838859009AB812 /* Package */,
+				65FAA2A818838859009AB812 /* Supporting Files */,
+			);
+			path = protectionclassviewer;
+			sourceTree = "<group>";
+		};
+		65FAA2A418838859009AB812 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				65FAA2A518838859009AB812 /* DEBIAN */,
+				65FAA2AA18838859009AB812 /* usr */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		65FAA2A518838859009AB812 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				65FAA2A618838859009AB812 /* control.txt */,
+				65FAA2A718838859009AB812 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		65FAA2A818838859009AB812 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65FAA2A918838859009AB812 /* PackageVersion.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65FAA2AA18838859009AB812 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				65FAA2AB18838859009AB812 /* bin */,
+			);
+			name = usr;
+			sourceTree = "<group>";
+		};
+		65FAA2AB18838859009AB812 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				65FAA2AC18838859009AB812 /* 0xdeadfa11 */,
+			);
+			name = bin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65FAA2A018838859009AB812 /* protectionclassviewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FAA2B118838859009AB812 /* Build configuration list for PBXNativeTarget "protectionclassviewer" */;
+			buildPhases = (
+				65FAA29D18838859009AB812 /* Sources */,
+				65FAA29E18838859009AB812 /* Frameworks */,
+				65FAA29F18838859009AB812 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = protectionclassviewer;
+			productName = protectionclassviewer;
+			productReference = 65FAA2A118838859009AB812 /* protectionclassviewer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65FAA29918838859009AB812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 65FAA29C18838859009AB812 /* Build configuration list for PBXProject "protectionclassviewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65FAA29818838859009AB812;
+			productRefGroup = 65FAA2A218838859009AB812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65FAA2A018838859009AB812 /* protectionclassviewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65FAA29F18838859009AB812 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65FAA29D18838859009AB812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FAA2AE18838859009AB812 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		65FAA2AF18838859009AB812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		65FAA2B018838859009AB812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		65FAA2B218838859009AB812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				INSTALL_PATH = /usr/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		65FAA2B318838859009AB812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				INSTALL_PATH = /usr/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65FAA29C18838859009AB812 /* Build configuration list for PBXProject "protectionclassviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FAA2AF18838859009AB812 /* Debug */,
+				65FAA2B018838859009AB812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FAA2B118838859009AB812 /* Build configuration list for PBXNativeTarget "protectionclassviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FAA2B218838859009AB812 /* Debug */,
+				65FAA2B318838859009AB812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65FAA29918838859009AB812 /* Project object */;
+}

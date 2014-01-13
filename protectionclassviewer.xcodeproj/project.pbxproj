@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65FAA2AE18838859009AB812 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FAA2AD18838859009AB812 /* main.cpp */; };
+		65FAA2AE18838859009AB812 /* pcviewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FAA2AD18838859009AB812 /* pcviewer.m */; };
+		65FAA2B51883899F009AB812 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FAA2B41883899F009AB812 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,7 +17,9 @@
 		65FAA2A718838859009AB812 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
 		65FAA2A918838859009AB812 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
 		65FAA2AC18838859009AB812 /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/usr/bin/0xdeadfa11; sourceTree = "<group>"; };
-		65FAA2AD18838859009AB812 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		65FAA2AD18838859009AB812 /* pcviewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pcviewer.m; sourceTree = "<group>"; };
+		65FAA2B41883899F009AB812 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		65FAA2B6188389EF009AB812 /* pbviewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbviewer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FAA2B51883899F009AB812 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +37,7 @@
 		65FAA29818838859009AB812 = {
 			isa = PBXGroup;
 			children = (
+				65FAA2B41883899F009AB812 /* CoreFoundation.framework */,
 				65FAA2A318838859009AB812 /* protectionclassviewer */,
 				65FAA2A218838859009AB812 /* Products */,
 			);
@@ -49,7 +54,8 @@
 		65FAA2A318838859009AB812 /* protectionclassviewer */ = {
 			isa = PBXGroup;
 			children = (
-				65FAA2AD18838859009AB812 /* main.cpp */,
+				65FAA2B6188389EF009AB812 /* pbviewer.h */,
+				65FAA2AD18838859009AB812 /* pcviewer.m */,
 				65FAA2A418838859009AB812 /* Package */,
 				65FAA2A818838859009AB812 /* Supporting Files */,
 			);
@@ -164,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65FAA2AE18838859009AB812 /* main.cpp in Sources */,
+				65FAA2AE18838859009AB812 /* pcviewer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

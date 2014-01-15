@@ -16,7 +16,7 @@ int main (int argc, const char * argv[])
                                       attributesOfItemAtPath:file error:NULL] valueForKey:
                                      NSFileProtectionKey];
     printf("%s\nx", [fileProtectionValue UTF8String]);
-
+    
     return 0;
 }
 
